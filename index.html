@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my first api</title>
+    <link rel="stylesheet" href="css/tether.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/axios.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script src="js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 h-100">
+                <div class="jumbotron jumbotron-fluid ">
+                    <div class="container">
+                        <h1 class="display-3">Get the Place Name using Api</h1>
+                        <div>
+                            <input type="text"  v-model="startJip" placeholder="Start Jip">
+                            <small>{{startCity}}</small>
+                        </div>
+                        <input type="text" v-model="endJip" placeholder="End Jip">
+                        <small>{{endCity}}</small>
+                        <br>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <hr class="my-2">
+                        <p>More info</p>
+                        <p class="lead">
+                            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
